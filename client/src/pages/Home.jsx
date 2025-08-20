@@ -1,17 +1,11 @@
-import { useState, useEffect } from 'react';
+import { useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import backgroundImage from '../assets/background.png';
 
 export default function Home() {
   const [searchOpen, setSearchOpen] = useState(false);
   const [searchText, setSearchText] = useState('');
-  const [loaded, setLoaded] = useState(false);
   const navigate = useNavigate();
-
-  useEffect(() => {
-    // Set loaded to true after component mounts
-    setLoaded(true);
-  }, []);
 
   const suggestions = [
     { label: "Web Development", path: "/web-development" },
