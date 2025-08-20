@@ -36,18 +36,6 @@ export default function Navbar() {
             >
               Roadmap
             </Link>
-            <Link 
-              to="/signin" 
-              className="text-gray-300 hover:text-white font-medium transition-colors"
-            >
-              Sign In
-            </Link>
-            <Link 
-              to="/signup" 
-              className="bg-gradient-to-r from-blue-500 to-purple-600 text-white px-5 py-2 rounded-lg font-medium hover:shadow-lg hover:shadow-blue-500/20 transition-all"
-            >
-              Sign Up
-            </Link>
           </div>
 
           {/* Mobile menu button */}
@@ -90,20 +78,6 @@ export default function Navbar() {
               onClick={() => setMobileMenuOpen(false)}
             >
               Roadmap
-            </Link>
-            <Link 
-              to="/signin" 
-              className="block text-gray-300 hover:text-white font-medium"
-              onClick={() => setMobileMenuOpen(false)}
-            >
-              Sign In
-            </Link>
-            <Link 
-              to="/signup" 
-              className="block bg-gradient-to-r from-blue-500 to-purple-600 text-white px-4 py-2 rounded-lg font-medium text-center mt-2"
-              onClick={() => setMobileMenuOpen(false)}
-            >
-              Sign Up
             </Link>
           </div>
         </div>

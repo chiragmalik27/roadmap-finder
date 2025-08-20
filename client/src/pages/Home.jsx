@@ -86,8 +86,8 @@ export default function Home() {
 
         {/* Features Grid */}
         <section className="max-w-7xl mx-auto px-4 py-16">
-          <div className="grid grid-cols-1 md:grid-cols-4 gap-6">
-            {['Features', 'Pricing', 'Roadmap', 'Sign In'].map((item, index) => (
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+            {['Features', 'Pricing', 'Roadmap'].map((item, index) => (
               <Link
                 key={item}
                 to={item.toLowerCase().replace(' ', '-')}
