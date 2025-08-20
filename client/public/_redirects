@@ -1,1 +1,12 @@
-/* /index.html 200
+# Redirects for client-side routing
+/                     /index.html   200
+/features             /index.html   200
+/pricing             /index.html   200
+/roadmap             /index.html   200
+/goalset             /index.html   200
+/web-development     /index.html   200
+/machine-learning    /index.html   200
+/software-development /index.html   200
+/mobile-app-development /index.html 200
+/cybersecurity       /index.html   200
+/*                   /index.html   200
